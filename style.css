@@ -15,13 +15,52 @@ body {
   width: 100%;
   padding-right: 15px;
   padding-left: 15px;
+/* Menü/NavBar
+-----------------------------------------------------------------------------*/
+.Navigation {
+  list-style-type: none;
+  float: left;
+}
+
+.NavLogo {
+  width: 160px;
+  height: 40px;
+  padding-right: 10px;
+}
+
+#NavBar {
+  padding: 10px 0px 10px 0px;
+  background-color: #F0F0F0;
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+
+.NavList {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover {
+  background-color: gray;
 }
 
 /* Bilder
 -----------------------------------------------------------------------------*/
 
 img{    
-    width: 720px; 
+    width: 721px; 
     height: 450px;
     margin-bottom: 5px;
     margin-top: 5px;
