@@ -11,6 +11,47 @@ body {
   text-align: left;
   background-color: #1a1a1a; }
 
+/* Menü/NavBar
+-----------------------------------------------------------------------------*/
+.Navigation {
+  list-style-type: none;
+  float: left;
+}
+
+.NavLogo {
+  width: 170px;
+  height: 40px;
+  padding-right: 50px;
+}
+
+#NavBar {
+  padding: 10px 0px 10px 50px;
+  background-color: #F0F0F0;
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+
+.NavList {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover {
+  background-color: gray;
+}
+
 /* Bilder
 -----------------------------------------------------------------------------*/
 
