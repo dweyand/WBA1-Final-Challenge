@@ -17,12 +17,9 @@
         <!-- Font -->
         <link href="https://fonts.googleapis.com/css?family=Montserrat:100,200,300,400,500,600,700" rel="stylesheet" type="text/css">
         
-         <link rel="stylesheet" href="style.css" />
+         <link rel="stylesheet" href="style.css" />        
         
-        <script type="text/javascript" src="script.js"></script>
-        
-        
-        
+        <script type="text/javascript" src="script.js"></script>          
         
     </head>
 
@@ -50,16 +47,16 @@
         <p>Damit der Umweltbewusste Kunde von Tesla auch ersehen kann, wie sein Auto und sein Fahrverhalten sich letzten endes auf den Verbrauch auswirken,
         ermöglichen wir einen schnellen und umfassenden Überblick über die wichtigsten Angaben, damit der Kunde immer weiß das er die Zukunft Fährt.</p>    
         
-            <img src="media/1.png">
-        
+            <img src="media/1.png"> 
             <img src="media/2.png">
+                        
         
                 <section class="container">
                     <div class="row">
                         <div class="col">
-                            <div class="mb-4">
-                                <button type="button" class="btn" onclick="textAusUndEinklappen()">mehr</button>
-                                <p id="DetailText"></p>
+                            <div class="mb-4">                                
+                                <button type="button" class="btn" onclick="textAusUndEinklappen('f1')">mehr</button>
+                                <div id="f1" style="display: none">Die Darstellung des Verbrauches erfolt in zwei verschiedenen Darstellungsarten, zum einen als Liste, zum andere als Diagramm. Die Liste ermöglicht dem Kunden das Ablesen der gefahrenen Strecke, die vorhandene Energie und der Verbrauch pro kilometer. In dieser Anzeige ist es ebenfalls möglich mehrere Fahrten abzulesen, über den kompletten Lebenszyklus des Tesla Autos. Das Diagramm verbildlicht die selben Daten für eine schöne übersicht in einem Kurvendiagramm.</div>
                             </div>
                         </div>
                     </div>
@@ -71,14 +68,15 @@
             
             <img src="media/4.png">
                 
-                    <section class="container">
-                        <div class="row">
-                            <div class="col">
-                                <div class="mb-4">
-                                    <button type="button" class="btn">mehr</button>
-                                </div>
+                <section class="container">
+                    <div class="row">
+                        <div class="col">
+                            <div class="mb-4">                                
+                                <button type="button" class="btn" onclick="textAusUndEinklappen('f2')">mehr</button>
+                                <div id="f2" style="display: none">Die Darstellung des Verbrauches erfolt in zwei verschiedenen Darstellungsarten, zum einen als Liste, zum andere als Diagramm. Die Liste ermöglicht dem Kunden das Ablesen der gefahrenen Strecke, die vorhandene Energie und der Verbrauch pro kilometer. In dieser Anzeige ist es ebenfalls möglich mehrere Fahrten abzulesen, über den kompletten Lebenszyklus des Tesla Autos. Das Diagramm verbildlicht die selben Daten für eine schöne übersicht in einem Kurvendiagramm.</div>
                             </div>
                         </div>
+                    </div>
                 </section>
         
 
@@ -110,6 +108,6 @@
         </li>  
     </ul>   
         
-        
+       
 
     </body>
