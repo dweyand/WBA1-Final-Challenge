@@ -14,24 +14,21 @@ body {
 /* Menü/NavBar
 -----------------------------------------------------------------------------*/
 .Navigation {
-  display: inline;
   list-style-type: none;
+  float: left;
 }
+
 #NavBar {
   padding: 10px 10px 10px 200px;
   background-color: #F0F0F0;
 }
 
-ul {
+.NavList {
   list-style-type: none;
   margin: 0;
   padding: 0;
   overflow: hidden;
   background-color: #333;
-}
-
-li {
-  float: left;
 }
 
 li a {
