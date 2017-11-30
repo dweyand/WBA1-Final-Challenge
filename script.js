@@ -1,4 +1,4 @@
-  function textAusUndEinklappen(id){
+function textAusUndEinklappen(id){
     var e = document.getElementById(id);
      
     if (e.style.display == "none"){
