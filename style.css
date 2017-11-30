@@ -1,6 +1,5 @@
 /* Body
 -----------------------------------------------------------------------------*/
-
 body {
   margin: 0;
   font-family: Montserrat;
@@ -9,28 +8,38 @@ body {
   line-height: 1.5;
   color: gray;
   text-align: left;
-  background-color: #1a1a1a; }
-
-.container {
-  width: 100%;
-  padding-right: 15px;
-  padding-left: 15px;
+  background-color: #1a1a1a; 
 }
+
+/* Container
+-----------------------------------------------------------------------------*/
+  .container {
+  width: 100%;
+  padding: 0px 15px 0px 15px;
+  }
+
+  .contDark {
+  background-color: #1a1a1a; 
+  }
+
+  .contLight {
+    background-color: #F0F0F0;
+  }
 
 /* Menü/NavBar
 -----------------------------------------------------------------------------*/
-.Navigation {
+.navigation {
   list-style-type: none;
   float: left;
 }
 
-.NavLogo {
+.navLogo {
   width: 160px;
   height: 40px;
   padding-right: 10px;
 }
 
-#NavBar {
+#navBar {
   padding: 10px 0px 10px 0px;
   background-color: #F0F0F0;
   position: fixed;
@@ -38,7 +47,7 @@ body {
   width: 100%;
 }
 
-.NavList {
+.navList {
   list-style-type: none;
   margin: 0;
   padding: 0;
