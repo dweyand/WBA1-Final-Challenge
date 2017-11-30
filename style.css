@@ -58,6 +58,10 @@ li a:hover {
 img{    
     width: 720px; 
     height: 450px;
+    margin-bottom: 5px;
+    margin-top: 5px;
+    margin-right: 50px;
+    margin-left: 80px;
 }
 
 /* Überschriften
@@ -89,7 +93,9 @@ h4, .h4 {
 
 button,
 textarea {
-  margin: 0;
+  margin-bottom: 8px;
+  margin-left: 80px;
+  margin-right: 100px;
   font-family: inherit;
   font-size: inherit;
   line-height: inherit; }
