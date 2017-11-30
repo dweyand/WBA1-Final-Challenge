@@ -17,10 +17,9 @@ body {
   display: inline;
   list-style-type: none;
 }
-#Navigation {
-  padding: 10px 20px 10px 50px;
-  background-color: lightgray;
-  border-left: solid 5px black;
+#NavBar {
+  padding: 10px 10px 10px 200px;
+  background-color: #F0F0F0;
 }
 
 ul {
@@ -43,9 +42,8 @@ li a {
   text-decoration: none;
 }
 
-/* Change the link color to #111 (black) on hover */
 li a:hover {
-  background-color: #111;
+  background-color: gray;
 }
 
 /* Bilder
