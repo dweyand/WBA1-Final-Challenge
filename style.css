@@ -1,6 +1,5 @@
 /* Body
 -----------------------------------------------------------------------------*/
-
 body {
   margin: 0;
   font-family: Montserrat;
@@ -9,36 +8,47 @@ body {
   line-height: 1.5;
   color: gray;
   text-align: left;
-  background-color: #1a1a1a; }
-
-.container {
-  width: 100%;
-  padding-right: 15px;
-  padding-left: 15px;
+  background-color: #1a1a1a; 
 }
+
+/* Container
+-----------------------------------------------------------------------------*/
+  .container {
+  width: 100%;
+  padding: 0px 15px 0px 15px;
+  }
+
+  .contDark {
+  background-color: #1a1a1a; 
+  }
+
+  .contLight {
+    background-color: #F0F0F0;
+  }
 
 /* Menü/NavBar
 -----------------------------------------------------------------------------*/
-.Navigation {
+.navigation {
   list-style-type: none;
   float: left;
 }
 
-.NavLogo {
+.navLogo {
   width: 160px;
   height: 40px;
   padding-right: 10px;
 }
 
-#NavBar {
+#navBar {
   padding: 10px 0px 10px 0px;
   background-color: #F0F0F0;
   position: fixed;
   top: 0;
   width: 100%;
+  margin-bottom: 3rem;
 }
 
-.NavList {
+.navList {
   list-style-type: none;
   margin: 0;
   padding: 0;
@@ -70,7 +80,7 @@ img{
     margin-left: 80px;
 }
 
-/* Überschriften
+/* Überschriften und weitere Schriftanpassung
 -----------------------------------------------------------------------------*/
 
 h1, h2, h3, h4, h5, h6,
@@ -79,13 +89,19 @@ h1, h2, h3, h4, h5, h6,
   font-family: inherit;
   font-weight: 500;
   line-height: 1.2;
-  color: inherit; }
+  color: inherit;
+  }
 
 h1, .h1 {
-  font-size: 2rem; }
+  font-size: 2rem;
+  text-align: center;}
 
 h2, .h2 {
-  font-size: 1.6rem; }
+  font-size: 1.6rem;
+  margin-top: 50px;
+  margin-bottom: 3rem;
+    text-align: center;
+}
 
 h3, .h3 {
   font-size: 1.4rem; }
@@ -93,6 +109,19 @@ h3, .h3 {
 h4, .h4 {
   font-size: 1.2rem; }
 
+.klappschrift {
+    
+    font-size: 1.1rem;
+    text-align: center;
+    margin-bottom: 3rem;
+}
+
+.sonstigeTexte{
+    
+    font-size: 1.1rem;
+    text-align: center; 
+    margin-bottom: 3rem;
+}
 
 /* Buttons
 -----------------------------------------------------------------------------*/
