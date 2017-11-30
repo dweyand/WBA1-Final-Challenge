@@ -19,13 +19,13 @@ body {
 }
 
 .NavLogo {
-  width: 170px;
+  width: 160px;
   height: 40px;
-  padding-right: 50px;
+  padding-right: 10px;
 }
 
 #NavBar {
-  padding: 10px 0px 10px 50px;
+  padding: 10px 0px 10px 0px;
   background-color: #F0F0F0;
   position: fixed;
   top: 0;
