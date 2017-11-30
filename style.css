@@ -101,16 +101,8 @@ select {
 .btn:hover {
   border-color: silver;
   color: #fff;
-  background-color: gray; }
+  background-color: #808080; }
 
 .btn.is-active {
   background-color: gray !important;
   color: #fff !important; }
-
-
-
-
-
-
-
-
