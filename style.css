@@ -11,6 +11,7 @@ body {
   background-color: #1a1a1a; 
 }
 
+
 /* Container
 -----------------------------------------------------------------------------*/
 .container {
@@ -79,6 +80,18 @@ img{
     margin: 0px 50px -5px 80px;
 }
 
+.picOne, .picThree{
+    margin-left: 180px;
+    margin-right: 10px;
+    float: left;
+}
+
+.picTwo, .picFour{
+    margin-right: 180px;
+    margin-left: 10px;
+    float: right;
+}
+
 /* Überschriften und weitere Schriftanpassung
 -----------------------------------------------------------------------------*/
 
@@ -124,10 +137,9 @@ h4, .h4 {
 
 /* Buttons
 -----------------------------------------------------------------------------*/
-
 button,
 textarea {
-  margin: 10px 100px 8px 80px;
+  margin: 10px 100px 15px 180px;
   font-family: inherit;
   font-size: inherit;
   line-height: inherit; }
@@ -179,3 +191,12 @@ select {
 .btn.is-active {
   background-color: gray !important;
   color: #fff !important; }
+
+  /* Graphen
+  -----------------------------------------------------------------------------*/
+
+.line{
+  fill: none;
+  stroke: blue;
+  stroke-width: 3px;
+}
