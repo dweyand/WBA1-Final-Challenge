@@ -13,18 +13,20 @@ body {
 
 /* Container
 -----------------------------------------------------------------------------*/
-  .container {
+.container {
   width: 100%;
   padding: 0px 15px 0px 15px;
-  }
+}
 
-  .contDark {
-  background-color: #000000; 
-  }
+.contDark {
+  /*background-color: #000000;*/
+  background-color: rgb(34, 34, 34);
+}
 
-  .contLight {
-    background-color: #F1F1F1;
-  }
+.contLight {
+  /*background-color: #F1F1F1;*/
+  background-color: #DBDBDB;
+}
 
 /* Menü/NavBar
 -----------------------------------------------------------------------------*/
@@ -74,7 +76,7 @@ li a:hover {
 img{    
     width: 720px; 
     height: 450px;
-    margin: 0px 50px 0px 80px;
+    margin: 0px 50px -5px 80px;
 }
 
 /* Überschriften und weitere Schriftanpassung
