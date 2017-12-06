@@ -7,3 +7,20 @@
     margin-top: 150px;
 
 }
+
+/* Tables 
+-----------------------------------------------------------------------------*/
+
+.tableEnergy {
+  max-width: 50%;
+  border-bottom: 0.5px solid white;
+  valign: right;
+}
+
+.tableEnergy tr,
+.tableEnergy th,
+.tableEnergy td {
+  
+  padding: 5px 16px;
+  margin-right: 5px;
+}
