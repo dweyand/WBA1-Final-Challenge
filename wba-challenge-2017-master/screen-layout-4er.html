@@ -2,7 +2,7 @@
 <html lang="en">
 
 <head>
-    <title>Tesla Screen Demo</title>
+    <title>Tesla Prototype</title>
     <!-- Required meta tags -->
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
@@ -14,6 +14,8 @@
     <link href="https://fonts.googleapis.com/css?family=Montserrat:100,200,300,400,500,600,700" rel="stylesheet">
     
     <script type="text/javascript" src="script.js"></script>
+    
+    <link rel="stylesheet" href="style.css" />  
 </head>
 
 <body>
@@ -44,22 +46,6 @@
                   <li class="main-control__switch main-control__switch--volume"><img src="images/main-control-bar/volume-icon.svg" alt="switch volume"></li>
                 </ul>
         </section>
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
 
         <div id="sectionBottom" class="screen__bottom-area">
 
@@ -73,14 +59,68 @@
                     
             <div class="btn-group" role="group">
                         
-            <button type="button" class="btn is-active" onclick="buttonAlsAktivAnzeigen('defaultButton', 'diagramButton')"id="defaultButton">DEFAULT</button> 
+            <button type="button" class="btn is-active" onclick="buttonAlsAktivAnzeigen2('diagramButton', 'defaultButton', 'showMe', 'showMe2', 'showMe3')" id="defaultButton">DEFAULT</button> 
                         
-            <button type="button" class="btn" onclick="buttonAlsAktivAnzeigen('diagramButton', 'defaultButton')" id="diagramButton">DIAGRAM</button>
+            <button type="button" class="btn" onclick="buttonAlsAktivAnzeigen('diagramButton', 'defaultButton', 'showMe', 'showMe2', 'showMe3')" id="diagramButton">DIAGRAMM</button>
                 
-            </div>            
-
-                    <!-- End of content box 4 ############################################-->
-                </div>
+            </div>              
+          
+            <div><img class="mod3Pic" id="showMe" src="media/Model3.png"></div>
+            
+            <section id="tableEnergy">
+                <table class="tableEnergy" id="showMe2" >
+                    <caption><h1>SINCE LAST CHARGE</h1></caption>
+                    <thead>
+                        <tr>
+                            <th></th>
+                            <th>DISTANCE</th>
+                            <th>TOTAL ENERGY</th>
+                            <th>AVG ENERGY</th>
+                        </tr>
+                    </thead>
+                         
+                    <tbody>
+                        <tr>
+                            <td></td>
+                            <td>728,7 km</td>
+                            <td>77,5 kWh</td>
+                            <td>106 Wh/km</td>
+                        </tr>
+                    </tbody>    
+                </table> 
+                    
+                <table class="tableEnergy" id="showMe3" >
+                    <caption><h1>TRIP METERS</h1></caption>
+                    <thead>            
+                        <tr>
+                            <th></th>
+                            <th>DISTANCE</th>
+                            <th>TOTAL ENERGY</th>
+                            <th>AVG ENERGY</th>
+                        </tr>
+                    </thead>
+                             
+                    <tbody>
+                        <tr>
+                            <td style= "font-weight: 100">A</td>
+                            <td>39,4 km</td>
+                            <td>4,6 kWh</td>
+                            <td>118 Wh/km</td>
+                        </tr>
+                        <tr>
+                            <td style= "font-weight: 100">B</td>
+                            <td>12 433 km</td>
+                            <td>2 677,5 kWh</td>
+                            <td>215 Wh/km</td>
+                        </tr>
+                    </tbody>    
+                </table>
+            </section>
+        </div>
+                    
+        
+                    <!-- End of content box 1 ############################################-->            
+                
             </section>
             
             

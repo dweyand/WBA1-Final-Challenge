@@ -58,6 +58,12 @@ body {
   background-color: #333;
 }
 
+.doku {
+  padding-left: 10px 10px;
+  text-align: center;
+}
+
+
 li a {
   display: block;
   color: white;
@@ -105,10 +111,14 @@ h2, .h2 {
 }
 
 h3, .h3 {
-  font-size: 1.4rem; }
-
+  font-size: 1.4rem; 
+  text-align: center;
+}
 h4, .h4 {
-  font-size: 1.2rem; }
+  font-size: 1.2rem; 
+  text-align: center;
+}
+
 
 .klappschrift {
     
@@ -122,6 +132,7 @@ h4, .h4 {
     font-size: 1.1rem;
     text-align: center; 
     margin-bottom: 3rem;
+
 }
 
 /* Buttons
