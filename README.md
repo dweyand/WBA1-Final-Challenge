@@ -1,11 +1,13 @@
 # WBA1-Final-Challenge
 
-In diesem Repo arbeiten folgende Personen
+Tesla Energy
 
-Daniel Weyand --> dweyand
- 
-Tobias Deutsch --> MiNeedsIt
+*[Challenge-Wiki](https://th-koeln.github.io/mi-bachelor-wba1/challenge-2017/) - Informationen rund um die Challenge
+*[Was passiert hier?](https://github.com/dweyand/WBA1-Final-Challenge/compare/master@%7B1511977229%7D...master)
 
-Philipp Zimmer --> PhilippZimmer
+##Contributers *
 
-Oliver Mertens --> Meolli
+**Daniel Weyand** --> [GitHub](https://github.com/dweyand)*
+**Tobias Deutsch** --> [GitHub](https://github.com/MiNeedsIt)*
+**Philipp Zimmer** --> [GitHub](https://github.com/PhilippZimmer)*
+**Oliver Mertens** --> [GitHub](https://github.com/meolli)*
