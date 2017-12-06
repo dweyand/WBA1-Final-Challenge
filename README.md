@@ -1,11 +1,11 @@
 # WBA1-Final-Challenge
 
-#In diesem Repo arbeiten folgende Personen
+In diesem Repo arbeiten folgende Personen
 
-#Daniel Weyand --> dweyand
+Daniel Weyand --> dweyand
  
-#Tobias Deutsch --> MiNeedsIt
+Tobias Deutsch --> MiNeedsIt
 
-#Philipp Zimmer --> PhilippZimmer
+Philipp Zimmer --> PhilippZimmer
 
-#Oliver Mertens --> Meolli
+Oliver Mertens --> Meolli
