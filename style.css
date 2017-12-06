@@ -73,22 +73,26 @@ li a:hover {
 /* Bilder
 -----------------------------------------------------------------------------*/
 
-img{    
-    width: 720px; 
-    height: 450px;
-    margin: 0px 50px -5px 80px;
+img{
+  max-width: 40%;
+  height: auto;      
+  /* 
+  width: 720px; 
+  height: 450px;
+  margin: 0px 50px -5px 80px;
 }
 
 .picOne, .picThree{
-    margin-left: 180px;
-    margin-right: 10px;
-    float: left;
+  margin-left: 180px;
+  margin-right: 10px;
+  float: left;
 }
 
 .picTwo, .picFour{
-    margin-right: 180px;
-    margin-left: 10px;
-    float: right;
+  margin-right: 180px;
+  margin-left: 10px;
+  float: right;
+  */   
 }
 
 /* Überschriften und weitere Schriftanpassung
@@ -136,8 +140,10 @@ h4, .h4 {
 
 /* Buttons
 -----------------------------------------------------------------------------*/
+
 button,
 textarea {
+
   margin: 10px 100px 15px 180px;
   font-family: inherit;
   font-size: inherit;
