@@ -11,6 +11,10 @@
 /* Tables 
 -----------------------------------------------------------------------------*/
 
+#tableEnergy {
+  float: right;
+}
+
 .tableEnergy {
   color: #F0F0F0;
   max-width: 50%;
@@ -22,4 +26,5 @@
 .tableEnergy td {
   padding: 5px 16px;
   text-align: right;
+  margin-bottom: 3rem;
 }
