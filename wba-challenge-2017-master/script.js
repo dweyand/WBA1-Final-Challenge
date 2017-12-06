@@ -6,3 +6,10 @@ function buttonAlsAktivAnzeigen(id, id2){
         f.className = "btn";
     } 
   }
+
+  document.addEventListener('DOMContentLoaded', function(){
+      document.getElementById('').addEventListener('click', function(){
+        lineChart.config.secondPath = true;
+        lineChart.render();
+      })
+  })
