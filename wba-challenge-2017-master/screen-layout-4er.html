@@ -59,15 +59,17 @@
                     
             <div class="btn-group" role="group">
                         
-            <button type="button" class="btn is-active" onclick="buttonAlsAktivAnzeigen('defaultButton', 'diagramButton')"id="defaultButton">DEFAULT</button> 
+            <button type="button" class="btn is-active" onclick="buttonAlsAktivAnzeigen2('diagramButton', 'defaultButton', 'showMe', 'showMe2', 'showMe3')" id="defaultButton">DEFAULT</button> 
                         
-            <button type="button" class="btn" onclick="buttonAlsAktivAnzeigen('diagramButton', 'defaultButton')" id="diagramButton">DIAGRAMM</button>
+            <button type="button" class="btn" onclick="buttonAlsAktivAnzeigen('diagramButton', 'defaultButton', 'showMe', 'showMe2', 'showMe3')" id="diagramButton">DIAGRAMM</button>
                 
-            </div>           
+            </div>              
+          
+            <div><img class="mod3Pic" id="showMe" src="media/Model3.png"></div>
             
             <section id="tableEnergy">
-                <table class="tableEnergy">
-                    <h1>SINCE LAST CHARGE</h1>
+                <table class="tableEnergy" id="showMe2" >
+                    <caption><h1>SINCE LAST CHARGE</h1></caption>
                     <thead>
                         <tr>
                             <th></th>
@@ -87,8 +89,8 @@
                     </tbody>    
                 </table> 
                     
-                <table class="tableEnergy">
-                    <h1>TRIP METERS</h1>
+                <table class="tableEnergy" id="showMe3" >
+                    <caption><h1>TRIP METERS</h1></caption>
                     <thead>            
                         <tr>
                             <th></th>
@@ -116,7 +118,7 @@
             </section>
         </div>
                     
-                    <div><img class="mod3Pic" src="media/Model3.png"> </div>
+        
                     <!-- End of content box 1 ############################################-->            
                 
             </section>
