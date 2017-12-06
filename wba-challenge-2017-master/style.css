@@ -11,16 +11,43 @@
 /* Tables 
 -----------------------------------------------------------------------------*/
 
+#tableEnergy {
+  float: right;
+  margin-top: 75px;
+  margin-right: 75px;
+}
+
 .tableEnergy {
-  max-width: 50%;
-  border-bottom: 0.5px solid white;
-  valign: right;
+  color: #F0F0F0;
+  max-width: 100%;
+  border-bottom: 0.5px solid #F0F0F0;
+  margin-top: 50px;
 }
 
 .tableEnergy tr,
 .tableEnergy th,
 .tableEnergy td {
-  
-  padding: 5px 16px;
-  margin-right: 5px;
+  padding: 5px 20px 5px;
+  text-align: right;
+  margin: 0px, 10px;
+}
+
+.tableEnergy th {
+  font-weight: 200;
+  line-height: 1.5;
+}
+
+.tableEnergy td {
+  font-weight: bold;
+  line-height: 1.5;
+}
+
+h1 {
+  color: #F0F0F0;
+  font-weight: 100;
+  text-align: right;
+}
+
+caption {
+  caption-side: top;
 }
