@@ -37,8 +37,26 @@ function buttonAlsAktivAnzeigen2(id, id2, id3, id4, id5){
   }
 
 document.addEventListener('DOMContentLoaded', function(){
-    document.getElementById('').addEventListener('click', function(){
+    lineChart.initData();
+
+    document.getElementById('defaultButton').addEventListener('click', function() {
+      document.getElementById('defaultButton').classList.toggle('is-active');
+      document.getElementById('diagramButton').classList.toggle('is-active');
+      document.getElementById('table').style.display = "";
+
+
+    })
+
+    document.getElementById('secondPath').addEventListener('click', function(){
+      if(lineChart.config.secondPath == false){
       lineChart.config.secondPath = true;
       lineChart.render();
+      document.getElementById('secondPath').value = 'Letzte Fahrt verbergen';
+      } else {
+        lineChart.config.secondPath = false;
+        lineChart.render();
+        document.getElementById('secondPath').value = 'Letzte Fahrt anzeigen';
+      }
     })
 })
+

@@ -7,7 +7,7 @@ var lineChart = {
 
 lineChart.initData = function() {
 
-  d3.json('http://mathe.dev/graphdata.json', function(error, data) {
+  d3.json('graphdata.json', function(error, data) {
     if(error) {
       throw 'lineChart initData: Fehler beim Laden der Daten.';
     } else {
@@ -24,7 +24,7 @@ lineChart.render = function() {
 
   var svgWidth = 960,
       svgHeight = 500,
-      svg = d3.select('#chart-container').append('svg').attr('width', svgWidth).attr('height', svgHeight).style('background-color', 'blue'),
+      svg = d3.select('#chart-container').append('svg').attr('width', svgWidth).attr('height', svgHeight).style('background-color', 'black'),
       margin = { top: 20, right: 20, bottom: 30, left: 40 },
       width = svgWidth - margin.left - margin.right,
       height = svgHeight - margin.bottom - margin.top;
