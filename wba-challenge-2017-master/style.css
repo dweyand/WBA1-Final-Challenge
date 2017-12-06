@@ -58,3 +58,22 @@ caption {
 .hide {
   display: none;
 }
+
+/* Graph
+-----------------------------------------------------------------------------*/
+
+.axis path {
+  stroke: white;
+}
+
+.axis .tick line {
+  stroke: white;
+}
+
+.axis .tick text {
+  fill: white;
+}
+
+.btn-small-font {
+  text-transform: none;
+}
