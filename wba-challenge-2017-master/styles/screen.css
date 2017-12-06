@@ -6896,10 +6896,11 @@ h2 {
 /* Tables 
 -----------------------------------------------------------------------------*/
 
-.table-energy {
+.tableEnergy {
+  width: 100%;
   padding-top: 10px;
   border-bottom: 2px solid;
-  border-color: #F0F0F0;
-
-
+  background-color: white; 
 }
+
+
