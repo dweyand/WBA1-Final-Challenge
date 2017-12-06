@@ -6892,3 +6892,14 @@ h2 {
   left: 0; }
 
 /* TEAM DESSEN NAME NICHT GENANNT WERDEN DARF */
+
+/* Tables 
+-----------------------------------------------------------------------------*/
+
+.table-energy {
+  padding-top: 10px;
+  border-bottom: 2px solid;
+  border-color: #F0F0F0;
+
+
+}
