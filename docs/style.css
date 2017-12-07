@@ -222,3 +222,7 @@ select {
   margin: 20px;
   background-color: #DBDBDB;
 }
+
+.eingabeReihe button {
+  margin-left: 10px;
+}

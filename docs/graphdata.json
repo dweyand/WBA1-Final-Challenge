@@ -1,6 +1,5 @@
 [
     [
-        {"km":0,"energyusage":0},
         {"km":20,"energyusage":2.84},
         {"km":40,"energyusage":5.64},
         {"km":60,"energyusage":8.46},
@@ -21,7 +20,6 @@
         {"km":350,"energyusage":41.5}
     ],
     [
-        {"km":0,"energyusage":0},
         {"km":20,"energyusage":2.84},
         {"km":40,"energyusage":5.64},
         {"km":60,"energyusage":8.46},

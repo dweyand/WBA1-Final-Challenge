@@ -8,9 +8,26 @@ function textAusUndEinklappen(id){
     }
   }
 
+function timeFunction(km) {
+    window.setTimeout(function() {
+
+      lineChart.pushCurrentPath(lineChart.currentPathEnergy + Math.floor((Math.random() * 3.5) + 1));
+      lineChart.render();
+      if(lineChart.currentPathKm < km) {
+        timeFunction(km);
+      }
+
+    }, 1000);
+  }
+
 document.addEventListener('DOMContentLoaded', function(){
     lineChart.initData();
 
+    document.getElementById('start-btn').addEventListener('click', function() {
+      lineChart.newPath();
+      lineChart.render();
+      timeFunction( +document.getElementById('km-tb').value );
+    });
 
 
     document.getElementById('secondPath').addEventListener('click', function(){
