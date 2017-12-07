@@ -18,12 +18,12 @@ document.addEventListener('DOMContentLoaded', function(){
       lineChart.config.secondPath = true;
       lineChart.render();
       document.getElementById('legendeb').classList.toggle('hide');
-      document.getElementById('secondPath').innerHTML = 'Letzte Fahrt verbergen';
+      document.getElementById('secondPath').innerHTML = 'HIDE LAST RIDE';
       } else {
         lineChart.config.secondPath = false;
         lineChart.render();
         document.getElementById('legendeb').classList.toggle('hide');
-        document.getElementById('secondPath').innerHTML = 'Letzte Fahrt anzeigen';
+        document.getElementById('secondPath').innerHTML = 'SHOW LAST RIDE';
       }
     });
 });
