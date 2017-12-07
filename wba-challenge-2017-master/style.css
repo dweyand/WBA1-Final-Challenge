@@ -72,6 +72,24 @@ caption {
   fill: white;
 }
 
+#chart-container {
+  margin: 20px;
+  background-color: #1a1a1a;
+}
+
+.charttextcolor {
+ fill: #ffffff;
+}
+
+
+/* Buttons
+-----------------------------------------------------------------------------*/
+
+.btn:hover {
+  cursor: pointer;
+}
+
 .btn-small-font {
   text-transform: none;
+
 }

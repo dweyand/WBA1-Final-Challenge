@@ -193,3 +193,11 @@ select {
 .btn.is-active {
   background-color: gray !important;
   color: #fff !important; }
+
+/* Graph
+-----------------------------------------------------------------------------*/
+
+.line {
+  stroke: blue;
+  fill: none;
+}

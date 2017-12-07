@@ -24,7 +24,7 @@ lineChart.render = function() {
 
   var svgWidth = 960,
       svgHeight = 500,
-      svg = d3.select('#chart-container').append('svg').attr('width', svgWidth).attr('height', svgHeight).style('background-color', 'grey'),
+      svg = d3.select('#chart-container').append('svg').attr('width', svgWidth).attr('height', svgHeight),
       margin = { top: 20, right: 20, bottom: 30, left: 40 },
       width = svgWidth - margin.left - margin.right,
       height = svgHeight - margin.bottom - margin.top;
@@ -58,27 +58,42 @@ lineChart.render = function() {
         .attr('transform', 'translate(0, ' + height + ')')
         .call(d3.axisBottom(x).ticks(5));
 
+    g.append('text')
+        .attr('class', 'charttextcolor')
+        .attr('transform', 'translate(' + (width/2) + ',' + (height + margin.bottom) + ')')
+        .style('text-anchor', 'middle')
+        .text('Strecke in km');
+
     g.append('g').attr('class', 'axis axis-y')
         .call(d3.axisLeft(y));
 
-    g.append("path")
+    g.append('text')
+        .attr('transform', 'rotate(-90)')
+        .attr('y', 0 - margin.left)
+        .attr('x', 0 - (height / 2))
+        .attr('dy', '.71em')
+        .attr('class', 'charttextcolor')
+        .style('text-anchor','middle')
+        .text('Verbrauch in kw/h');
+
+    g.append('path')
       .datum(data)
-      .attr("fill", "none")
-      .attr("stroke", "#BC0E57")
-      .attr("stroke-linejoin", "round")
-      .attr("stroke-linecap", "round")
-      .attr("stroke-width", 3)
-      .attr("d", line);
+      .attr('fill', 'none')
+      .attr('stroke', '#0D7A99')
+      .attr('stroke-linejoin', 'round')
+      .attr('stroke-linecap', 'round')
+      .attr('stroke-width', 3)
+      .attr('d', line);
 
     if (this.config.secondPath) {
-      g.append("path")
+      g.append('path')
         .datum(dataLast)
-        .attr("fill", "none")
-        .attr("stroke", "red")
-        .attr("stroke-linejoin", "round")
-        .attr("stroke-linecap", "round")
-        .attr("stroke-width", 3)
-        .attr("d", lineSecond);
+        .attr('fill', 'none')
+        .attr('stroke', '#FD2F13')
+        .attr('stroke-linejoin', 'round')
+        .attr('stroke-linecap', 'round')
+        .attr('stroke-width', 3)
+        .attr('d', lineSecond);
     }
 
 
