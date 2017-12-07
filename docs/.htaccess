@@ -1,0 +1,4 @@
+AuthType Basic
+AuthName "Passwortgeschützter Bereich"
+AuthUserFile /home/inf307/public_html/docs/.htpasswd
+Require valid-user
