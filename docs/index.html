@@ -18,7 +18,7 @@
         
         <link rel="stylesheet" href="style.css" />        
         
-        <script type="text/javascript" src="script.js"></script>          
+        <script type="text/javascript" src="script.js"></script> 
         
     </head>
 
@@ -51,7 +51,7 @@
         <section class="container contLight">       
             <img src="media/2.png">   
                     <div class="row" "col" "mb-4">                               
-                        <button type="button" class="btn"   onclick="textAusUndEinklappen('f2')">mehr</button>
+                       <center> <button type="button" class="btn"   onclick="textAusUndEinklappen('f2')">mehr</button></center>
                             <div class="klappschrift" id="f2" style="display: none">Die Power Consumption Anzeige informiert Sie über den absoluten Engergie-Verbrauch seit Ihrer letzten Ladung, sowie über die Daten Ihrer einzelnen Fahrten. <br> Sowohl die zurückgelegte Distanz, als auch die verbrauchte Gesamt-Energie wird Ihnen unter der DEFAULT-Anzeige zur Verfügung gestellt. <br>
                                 Die Ansicht des Verbrauchs-Diagrams stellt Ihnen diese Daten auf Wunsch grafisch dar.<br> das Power Consumption Feature passt sich optisch an die aüßeren Lichtverhältnisse an.
                         </div>
@@ -65,7 +65,7 @@
                 <img src="media/1.png" alt="">
             
             <div class="row" "col" "mb-4">
-                        <button type="button" class="btn" onclick="textAusUndEinklappen('f1')">mehr</button>
+                       <center> <button type="button" class="btn" onclick="textAusUndEinklappen('f1')">mehr</button> </center>
                             <div class="klappschrift" id="f1" style="display: none">Die Power Consumption Anzeige informiert Sie über den absoluten Engergie-Verbrauch seit Ihrer letzten Ladung, sowie über die Daten Ihrer einzelnen Fahrten. <br> Sowohl die zurückgelegte Distanz, als auch die verbrauchte Gesamt-Energie wird Ihnen unter der DEFAULT-Anzeige zur Verfügung gestellt. <br>
                                 Die Ansicht des Verbrauchs-Diagrams stellt Ihnen diese Daten auf Wunsch grafisch dar.<br> das Power Consumption Feature passt sich optisch an die aüßeren Lichtverhältnisse an.
                             </div>
@@ -76,18 +76,27 @@
                 </section> 
             </section>
         
-        <section class="container contLight">      
-            <div class="diagramm" id="graph">
+        <section class="container contLight">   
+            
+            
+                <center>
+                        <div id="chart-container">
+                                
+                        </div>
+                </center>
+             <center>
+                <button type="button" class="btn btn-small-font" id="secondPath" value="Letzte Fahrt anzeigen">Letzte Fahrt anzeigen</button></center>
 
-            </div>
+            
+
                         <div class="row" "col" "mb-4">
-                        <button type="button" class="btn" onclick="textAusUndEinklappen('f3')">mehr</button>
+                       <center> <button type="button" class="btn" onclick="textAusUndEinklappen('f3')">mehr</button></center>
                             <div class="klappschrift" id="f3" style="display: none">Das Diagramm vergleicht z.B. Ihre aktuelle Fahrt mit Ihrer letzten Fahrt.<br>
                             </div>
                     </div>
         </section>
 
     <script src="https://d3js.org/d3.v4.min.js"></script>
-    <script src="linechart.js"></script>
+    <script src="line-chart.js"></script>
         
     </body>

@@ -87,14 +87,6 @@ img{
     margin-right: auto;
 }
 
-
-/* Graph
------------------------------------------------------------------------------*/
-
-.diagramm{    
-  display: block;
-}
-
 /* Überschriften und weitere Schriftanpassung
 -----------------------------------------------------------------------------*/
 
@@ -147,8 +139,7 @@ h4, .h4 {
 -----------------------------------------------------------------------------*/
 
 button,
-textarea {
-    
+textarea {    
 margin: 10px 10px 15px 60px;
   font-family: inherit;
   font-size: inherit;
@@ -204,8 +195,7 @@ select {
 
 /* Graph
 -----------------------------------------------------------------------------*/
-
-.line {
-  stroke: blue;
-  fill: none;
+#chart-container {
+  margin: 20px;
+  background-color: #DBDBDB;
 }
