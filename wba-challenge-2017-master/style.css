@@ -89,6 +89,10 @@ caption {
  fill: #ffffff;
 }
 
+#graph {
+  padding-bottom: 10px;
+}
+
 
 /* Buttons
 -----------------------------------------------------------------------------*/
@@ -100,4 +104,11 @@ caption {
 .btn-small-font {
   text-transform: none;
 
+}
+
+/* Grunddesign
+-----------------------------------------------------------------------------*/
+
+#section1 {
+  padding-bottom: 200px;
 }
