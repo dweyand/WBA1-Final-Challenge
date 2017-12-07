@@ -27,6 +27,7 @@ document.addEventListener('DOMContentLoaded', function(){
       lineChart.newPath();
       lineChart.render();
       timeFunction( +document.getElementById('km-tb').value );
+      document.getElementById('km-tb').value = '';
     });
 
 
