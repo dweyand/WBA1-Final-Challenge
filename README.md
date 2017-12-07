@@ -15,3 +15,9 @@ Tesla Power Consumption Feature
 * **Philipp Zimmer** --> [GitHub](https://github.com/PhilippZimmer)
 
 * **Oliver Mertens** --> [GitHub](https://github.com/meolli)
+
+## Hilfestellungen:
+
+* Der gesamte Code wurde im Rahmen der WBA-Challenge von den oben genannten Contributern erstellt
+* Zur Hilfe wurde die Javascript D3.js Bibliothek verwendet 
+* Zusätzlich natürlich das Mockup-Kit
