@@ -11,7 +11,7 @@ var lineChart = {
 
 lineChart.initData = function() {
 
-  d3.json('JS-Dateien/graphdata.json', function(error, data) {
+  d3.json('JSON-Dateien/graphdata.json', function(error, data) {
     if(error) {
       throw 'lineChart initData: Fehler beim Laden der Daten.';
     } else {
