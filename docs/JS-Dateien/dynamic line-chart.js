@@ -1,7 +1,7 @@
 var lineChart = {
   data: [],
   config: {
-    secondPath: true,
+    secondPath: false,
   },
   currentPathKm: 0,
   lastPathKm: 0,
