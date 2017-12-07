@@ -17,7 +17,8 @@
         {"km":280,"energyusage":33},
         {"km":300,"energyusage":35},
         {"km":320,"energyusage":37},
-        {"km":340,"energyusage":40}
+        {"km":340,"energyusage":40},
+        {"km":350,"energyusage":41.5}
     ],
     [
         {"km":0,"energyusage":0},
