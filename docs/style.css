@@ -87,14 +87,6 @@ img{
     margin-right: auto;
 }
 
-
-/* Graph
------------------------------------------------------------------------------*/
-
-.diagramm{    
-  display: block;
-}
-
 /* Überschriften und weitere Schriftanpassung
 -----------------------------------------------------------------------------*/
 
@@ -143,12 +135,34 @@ h4, .h4 {
 
 }
 
+#legendea {
+    color: #0D7A99;
+}
+
+#legendeb {
+    color: #FD2F13;
+}
+
+.graphinline {
+  display: inline-block;
+  font-size: 2rem;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+.small-font {
+  font-size: 16px !important;
+}
+
+.hide {
+  display: none;
+}
+
 /* Buttons
 -----------------------------------------------------------------------------*/
 
 button,
-textarea {
-    
+textarea {    
 margin: 10px 10px 15px 60px;
   font-family: inherit;
   font-size: inherit;
@@ -204,8 +218,7 @@ select {
 
 /* Graph
 -----------------------------------------------------------------------------*/
-
-.line {
-  stroke: blue;
-  fill: none;
+#chart-container {
+  margin: 20px;
+  background-color: #DBDBDB;
 }
