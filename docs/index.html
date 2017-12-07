@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+
+<html lang="de">
+    
+    <head>
+        <title>TESLA Dokumentation</title>
+        <!-- Required meta tags -->
+        <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    
+        <!-- Bootstrap CSS -->
+        <link rel="stylesheet" href="styles/generated/tesla.css" type="text/css">
+    
+        <!-- Mockup Kit Doku -->
+        <link rel="stylesheet" href="styles/tesla-mockup-kit.css" type="text/css">
+    
+        <!-- Font -->
+        <link href="https://fonts.googleapis.com/css?family=Montserrat:100,200,300,400,500,600,700" rel="stylesheet" type="text/css">
+        
+        <link rel="stylesheet" href="style.css" />        
+        
+        <script type="text/javascript" src="script.js"></script>          
+        
+    </head>
+
+    <body>
+        <header>
+            <h1>Dokumentation von ... für die WBA1 Challenge</h1>          
+        </header>   
+        
+        <div id=navBar>
+            <a href=#><img class="navLogo" style="float:left" src="media/TeslaLogo.png" alt="Das Tesla Logo"></a>
+            <ul class="navList">
+                <li class="navigation"><a href=#>Home</a></li>
+                <li class="navigation"><a href=#>Jetzt kaufen</a></li>
+                <li class="navigation"><a href=#>Prototyp</a></li>
+                <li class="navigation"><a href=#>Download</a></li>
+                <li class="navigation"><a href=#>Hilfe</a></li>
+                <li class="navigation"><a href=#>etc.</a></li>
+                <li class="navigation"><a href=#>pp</a></li>
+            </ul>
+        </div>
+        
+        <section class="container">   
+            <div> 
+                <h2>Die Verbrauchsanzeige</h2>             
+                <p class="sonstigeTexte">Wissen, was im Inneren Ihres Tesla passiert. durch das Power Consumption Feature haben Sie den Energierverbrauch Ihres Fahrzeugs stets im Blick.<br>
+                Lassen Sie sich Verbrauchsdetails als Tabelle oder Diagramm anzeigen und erleben Sie Energie-Management auf einem neuen Level.</p> 
+            </div>   
+        </section>
+
+        <section class="container contLight">       
+            <img src="media/2.png">   
+                    <div class="row" "col" "mb-4">                               
+                        <button type="button" class="btn"   onclick="textAusUndEinklappen('f2')">mehr</button>
+                            <div class="klappschrift" id="f2" style="display: none">Die Power Consumption Anzeige informiert Sie über den absoluten Engergie-Verbrauch seit Ihrer letzten Ladung, sowie über die Daten Ihrer einzelnen Fahrten. <br> Sowohl die zurückgelegte Distanz, als auch die verbrauchte Gesamt-Energie wird Ihnen unter der DEFAULT-Anzeige zur Verfügung gestellt. <br>
+                                Die Ansicht des Verbrauchs-Diagrams stellt Ihnen diese Daten auf Wunsch grafisch dar.<br> das Power Consumption Feature passt sich optisch an die aüßeren Lichtverhältnisse an.
+                        </div>
+                    </div>
+            <section class="container">
+
+            </section>
+        </section>    
+        
+        <section class="container contDark">
+                <img src="media/1.png" alt="">
+            
+            <div class="row" "col" "mb-4">
+                        <button type="button" class="btn" onclick="textAusUndEinklappen('f1')">mehr</button>
+                            <div class="klappschrift" id="f1" style="display: none">Die Power Consumption Anzeige informiert Sie über den absoluten Engergie-Verbrauch seit Ihrer letzten Ladung, sowie über die Daten Ihrer einzelnen Fahrten. <br> Sowohl die zurückgelegte Distanz, als auch die verbrauchte Gesamt-Energie wird Ihnen unter der DEFAULT-Anzeige zur Verfügung gestellt. <br>
+                                Die Ansicht des Verbrauchs-Diagrams stellt Ihnen diese Daten auf Wunsch grafisch dar.<br> das Power Consumption Feature passt sich optisch an die aüßeren Lichtverhältnisse an.
+                            </div>
+                    </div>
+            
+                <section class="container">
+                    
+                </section> 
+            </section>
+        
+        <section class="container contLight">      
+            <div class="diagramm" id="graph">
+
+            </div>
+                        <div class="row" "col" "mb-4">
+                        <button type="button" class="btn" onclick="textAusUndEinklappen('f3')">mehr</button>
+                            <div class="klappschrift" id="f3" style="display: none">Das Diagramm vergleicht z.B. Ihre aktuelle Fahrt mit Ihrer letzten Fahrt.<br>
+                            </div>
+                    </div>
+        </section>
+
+    <script src="https://d3js.org/d3.v4.min.js"></script>
+    <script src="linechart.js"></script>
+        
+    </body>
