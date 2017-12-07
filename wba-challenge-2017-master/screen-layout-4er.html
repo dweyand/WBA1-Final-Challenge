@@ -59,13 +59,13 @@
                     
             <div class="btn-group" role="group">
                         
-            <button type="button" class="btn is-active" onclick="buttonAlsAktivAnzeigen2('diagramButton', 'defaultButton', 'showMe', 'showMe2', 'showMe3')" id="defaultButton">DEFAULT</button> 
+            <button type="button" class="btn is-active" id="defaultButton">DEFAULT</button> 
                         
-            <button type="button" class="btn" onclick="buttonAlsAktivAnzeigen('diagramButton', 'defaultButton', 'showMe', 'showMe2', 'showMe3')" id="diagramButton">DIAGRAMM</button>
+            <button type="button" class="btn" id="diagramButton">DIAGRAMM</button>
                 
             </div>              
           
-            <div><img class="mod3Pic" id="showMe" src="media/Model3.png">
+            <div id="table"><img class="mod3Pic" id="showMe" src="media/Model3.png">
             
             <section id="tableEnergy">
                 <table class="tableEnergy" id="showMe2" >
@@ -116,9 +116,17 @@
                     </tbody>    
                 </table>
             </section>
+            </div>
+            <div class="hide" id="graph">
+                <div id="chart-container">
+
+                </div>
+                <button type="button" class="btn btn-small-font" id="secondPath" value="Letzte Fahrt anzeigen">Letzte Fahrt anzeigen</button>
+            </div>
         </div>
         </div>
                     
+                  
         
                     <!-- End of content box 1 ############################################-->            
                 
@@ -215,6 +223,8 @@
     <script src="scripts/tesla-layout-switch.js"></script>
     
     <!-- Verschiedene Layouts via Query String -->
-    <script src="scripts/tesla-main-control.js"#></script>
+    <script src="scripts/tesla-main-control.js"></script>
 
+    <script src="https://d3js.org/d3.v4.min.js"></script>
+    <script src="line-chart.js"></script>
 </body>

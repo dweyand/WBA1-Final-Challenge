@@ -13,6 +13,7 @@
   float: right;
   margin-top: 45px;
   margin-right: 75px;
+
 }
 
 .tableEnergy {
@@ -48,4 +49,30 @@ h1 {
 
 caption {
   caption-side: top;
+}
+
+/* Toggle 
+-----------------------------------------------------------------------------*/
+
+.hide {
+  display: none;
+}
+
+/* Graph
+-----------------------------------------------------------------------------*/
+
+.axis path {
+  stroke: white;
+}
+
+.axis .tick line {
+  stroke: white;
+}
+
+.axis .tick text {
+  fill: white;
+}
+
+.btn-small-font {
+  text-transform: none;
 }
