@@ -1,6 +1,6 @@
 # WBA1-Final-Challenge
 
-Tesla Energy
+Tesla Power Consumption Feature
 
 [Challenge-Wiki](https://th-koeln.github.io/mi-bachelor-wba1/challenge-2017/) - Informationen rund um die Challenge
 
