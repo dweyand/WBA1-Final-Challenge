@@ -15,7 +15,7 @@ body {
 -----------------------------------------------------------------------------*/
 .container {
   width: 100%;
-  padding: 0px 15px 0px 15px;
+  padding: 80px 15px 0px 15px;
 }
 
 .contDark {
@@ -87,6 +87,14 @@ img{
     margin-right: auto;
 }
 
+
+/* Graph
+-----------------------------------------------------------------------------*/
+
+.diagramm{    
+  display: block;
+}
+
 /* Überschriften und weitere Schriftanpassung
 -----------------------------------------------------------------------------*/
 
@@ -140,8 +148,8 @@ h4, .h4 {
 
 button,
 textarea {
-
-  margin: 10px 100px 15px 180px;
+    
+margin: 10px 10px 15px 60px;
   font-family: inherit;
   font-size: inherit;
   line-height: inherit; }
