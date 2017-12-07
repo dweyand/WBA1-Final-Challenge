@@ -10,9 +10,7 @@
         <!-- Font -->
         <link href="https://fonts.googleapis.com/css?family=Montserrat:100,200,300,400,500,600,700" rel="stylesheet" type="text/css">
         <link rel="stylesheet" href="CSS-Dateien/style.css" />        
-        
         <script type="text/javascript" src="JS-Dateien/script.js"></script> 
-        
     </head>
 
     <body>
@@ -39,72 +37,74 @@
                 <h2>Die Verbrauchsanzeige</h2>             
                 <p class="sonstigeTexte">
                     Wissen, was im Inneren Ihres Teslas passiert. Durch das Power Consumption Feature haben Sie den Energierverbrauch Ihres Fahrzeugs stets im Blick.<br>
-                    Lassen Sie sich Verbrauchsdetails als Tabelle oder Diagramm anzeigen und erleben Sie Energie-Management auf einem neuen Level.</p> 
+                    Lassen Sie sich Verbrauchsdetails als Tabelle oder Diagramm anzeigen und erleben Sie Energie-Management auf einem neuen Level.
+                </p> 
             </div>   
         </section>
 
         <section class="container contLight">       
             <img src="media/2.png">   
-                    <div class="row" "col" "mb-4">                               
-                       <center> <button type="button" class="btn"   onclick="textAusUndEinklappen('f2')">mehr</button></center>
-                        <div class="klappschrift" id="f2" style="display: none">
-                            Die Power Consumption Anzeige informiert Sie ueber den absoluten Engergie-Verbrauch seit Ihrer letzten Ladung, 
-                            sowie über die Daten Ihrer einzelnen Fahrten. <br> Sowohl die zurueckgelegte Distanz, als auch die verbrauchte Gesamt-Energie wird Ihnen unter der DEFAULT-Anzeige
-                            zur Verfuegung gestellt. <br> Die Ansicht des Verbrauchs-Diagrams stellt Ihnen diese Daten auf Wunsch auch grafisch dar.<br> Das Power Consumption Feature passt sich optisch an die aeusseren Lichtverhaeltnisse an.
-                        </div>
+                <div class="row" "col" "mb-4">                               
+                    <center> <button type="button" class="btn"   onclick="textAusUndEinklappen('f2')">mehr</button></center>
+                    <div class="klappschrift" id="f2" style="display: none">
+                        Die Power Consumption Anzeige informiert Sie ueber den absoluten Engergie-Verbrauch seit Ihrer letzten Ladung, 
+                        sowie über die Daten Ihrer einzelnen Fahrten. <br> Sowohl die zurueckgelegte Distanz, als auch die verbrauchte Gesamt-Energie wird Ihnen unter der DEFAULT-Anzeige
+                        zur Verfuegung gestellt. <br> Die Ansicht des Verbrauchs-Diagrams stellt Ihnen diese Daten auf Wunsch auch grafisch dar.<br> Das Power Consumption Feature passt sich 
+                        optisch an die aeusseren Lichtverhaeltnisse an.
                     </div>
+                </div>
             <div class="container">
             </div>
         </section>    
         
         <section class="container contDark">
                 <img src="media/1.png" alt="">
-            
             <div class="row" "col" "mb-4">
-                       <center> <button type="button" class="btn" onclick="textAusUndEinklappen('f1')">mehr</button> </center>
-                            <div class="klappschrift" id="f1" style="display: none">Die Power Consumption Anzeige informiert Sie ueber den absoluten Engergie-Verbrauch seit Ihrer letzten Ladung, sowie ueber die Daten Ihrer einzelnen Fahrten. <br> Sowohl die zurueckgelegte Distanz, als auch die verbrauchte Gesamt-Energie wird Ihnen unter der DEFAULT-Anzeige zur Verfuegung gestellt. <br>
-                                Die Ansicht des Verbrauchs-Diagrams stellt Ihnen diese Daten auf Wunsch grafisch dar.<br> Das Power Consumption Feature passt sich optisch an die aeusseren Lichtverhaeltnisse an.
-                            </div>
-                    </div>
-            
-                <section class="container">
-                    
-                </section> 
-            </section>
+                <center> 
+                    <button type="button" class="btn" onclick="textAusUndEinklappen('f1')">mehr
+                    </button> 
+                </center>
+                <div class="klappschrift" id="f1" style="display: none">
+                    Die Power Consumption Anzeige informiert Sie ueber den absoluten Engergie-Verbrauch seit Ihrer letzten Ladung, sowie ueber die 
+                    Daten Ihrer einzelnen Fahrten. <br> Sowohl die zurueckgelegte Distanz, als auch die verbrauchte Gesamt-Energie wird Ihnen unter der DEFAULT-Anzeige zur Verfuegung gestellt. <br>
+                    Die Ansicht des Verbrauchs-Diagrams stellt Ihnen diese Daten auf Wunsch grafisch dar.<br> Das Power Consumption Feature passt sich optisch an die aeusseren Lichtverhaeltnisse an.
+                </div>
+            </div>
+            <div class="container">    
+            </div> 
+        </section> 
         
         <section class="container contLight">   
-            
-            
-                <center>
-                        <div id="chart-container">
-                                
-                        </div>
-                </center>
+            <center>
+                <div id="chart-container">
+                </div>
+            </center>
              <center>
-                <button type="button" class="btn btn-small-font" id="secondPath">SHOW LAST RIDE</button>
+                <button type="button" class="btn btn-small-font" id="secondPath">SHOW LAST RIDE
+                </button>
                 <div id="legendea" class="graphinline">
                     <p>A</p>
                 </div>
                 <div class="graphinline small-font">
-                    <p>| AVG SPEED: 100 KM/H | AVG ENERGY: 14,1 KW/H |</p>
+                    <p>| AVG SPEED: 100 KM/H | AVG ENERGY: 14,1 KW/H |
+                    </p>
                 </div>
                 <div id="legendeb" class="graphinline hide">
                     <p> B </p>
-                 </div>
+                </div>
                 </center>
-                        <div class="row" "col" "mb-4">
-                       <center><p class="klappschrift">Mit hilfe des Diagramms koennen sie z.B. Ihre aktuelle Fahrt mit der vorherigen vergleichen und ihren Fahrstil hinsichtlich der Energieeffizienz optimieren.</p></center>
-
-
-                    </div>
-        
+                <div class="row" "col" "mb-4">
+                    <center>
+                        <p class="klappschrift">Mit hilfe des Diagramms koennen sie z.B. Ihre aktuelle Fahrt mit der vorherigen vergleichen und ihren Fahrstil hinsichtlich der Energieeffizienz optimieren.
+                        </p>
+                    </center>
+                </div>
         </section>
 
-    <script src="https://d3js.org/d3.v4.min.js"></script>
-    <script src="JS-Dateien/line-chart.js"></script>
+        <script src="https://d3js.org/d3.v4.min.js"></script>
+        <script src="JS-Dateien/line-chart.js"></script>
         
-        
-        
-<p>Studentenprojekt an der TH Koeln - Webbasierte Anwendungen - Tobias Deutsch, Oliver Mertens, Philipp Zimmer, Daniel Weyand</p>
+        <p>Studentenprojekt an der TH Koeln - Webbasierte Anwendungen - Tobias Deutsch, Oliver Mertens, Philipp Zimmer, Daniel Weyand
+        </p>
         
     </body>
