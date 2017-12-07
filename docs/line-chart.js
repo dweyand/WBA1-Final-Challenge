@@ -62,7 +62,7 @@ lineChart.render = function() {
         .attr('class', 'charttextcolor')
         .attr('transform', 'translate(' + (width/2) + ',' + (height + margin.bottom) + ')')
         .style('text-anchor', 'middle')
-        .text('Strecke in km');
+        .text('ROUTE IN KM');
 
     g.append('g').attr('class', 'axis axis-y')
         .call(d3.axisLeft(y));
@@ -74,7 +74,7 @@ lineChart.render = function() {
         .attr('dy', '.71em')
         .attr('class', 'charttextcolor')
         .style('text-anchor','middle')
-        .text('Verbrauch in kw/h');
+        .text('CONSUMPTION IN KW/H');
 
     g.append('path')
       .datum(data)

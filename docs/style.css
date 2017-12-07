@@ -135,6 +135,29 @@ h4, .h4 {
 
 }
 
+#legendea {
+    color: #0D7A99;
+}
+
+#legendeb {
+    color: #FD2F13;
+}
+
+.graphinline {
+  display: inline-block;
+  font-size: 2rem;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+.small-font {
+  font-size: 16px !important;
+}
+
+.hide {
+  display: none;
+}
+
 /* Buttons
 -----------------------------------------------------------------------------*/
 

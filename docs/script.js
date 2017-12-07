@@ -17,10 +17,12 @@ document.addEventListener('DOMContentLoaded', function(){
       if(lineChart.config.secondPath == false){
       lineChart.config.secondPath = true;
       lineChart.render();
+      document.getElementById('legendeb').classList.toggle('hide');
       document.getElementById('secondPath').innerHTML = 'Letzte Fahrt verbergen';
       } else {
         lineChart.config.secondPath = false;
         lineChart.render();
+        document.getElementById('legendeb').classList.toggle('hide');
         document.getElementById('secondPath').innerHTML = 'Letzte Fahrt anzeigen';
       }
     });
